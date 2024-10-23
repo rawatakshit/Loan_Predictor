@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 import pickle
 
-data=pd.read_csv("iosc workshop/loan_approval_dataset.csv")
+data=pd.read_csv("loan_approval_dataset.csv")
 
 # print(data.head())
 # print(data.info())
