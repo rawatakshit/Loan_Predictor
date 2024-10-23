@@ -8,7 +8,7 @@ model= pickle.load(open('model.sav','rb'))
 st.title("Loan Prediction ")
 st.sidebar.header("Applicant Information")
 # image=Image.open('/Users/akshitrawat/Desktop/python/iosc workshop/loan.webp')
-st.image(image)
+# st.image(image)
 
 def info():
     no_of_dependents = st.sidebar.slider("Number of Dependents",0,10,1)
