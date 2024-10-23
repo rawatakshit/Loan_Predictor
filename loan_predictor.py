@@ -7,7 +7,7 @@ model= pickle.load(open('model.sav','rb'))
 
 st.title("Loan Prediction ")
 st.sidebar.header("Applicant Information")
-image=Image.open('/Users/akshitrawat/Desktop/python/iosc workshop/loan.webp')
+# image=Image.open('/Users/akshitrawat/Desktop/python/iosc workshop/loan.webp')
 st.image(image)
 
 def info():
