@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 from PIL import Image
 
-model= pickle.load(open('/Users/akshitrawat/Desktop/python/iosc workshop/model.sav','rb'))
+model= pickle.load(open('model.sav','rb'))
 
 st.title("Loan Prediction ")
 st.sidebar.header("Applicant Information")
